@@ -5,6 +5,7 @@ if (isset($_POST['gdbr_saving'])) {
     $options["exclude_posts"] = $_POST["exclude_posts"];
     $options["exclude_pages"] = $_POST["exclude_pages"];
     $options["report_email"] = $_POST["report_email"];
+    $options["report_email_subject"] = $_POST["report_email_subject"];
     $options["auto_insert_front"] = isset($_POST['auto_insert_front']) ? 1 : 0;
     $options["auto_insert_single"] = isset($_POST['auto_insert_single']) ? 1 : 0;
     $options["auto_insert_page"] = isset($_POST['auto_insert_page']) ? 1 : 0;
@@ -58,7 +59,7 @@ if (isset($_POST['gdbr_saving'])) {
             </tr>
             <tr>
                 <td width="150"><?php _e("Subject", "gd-broken-report"); ?>:</td>
-                <td><input type="text" name="report_email" id="report_email" value="<?php echo $options["report_email_subject"]; ?>" style="width: 500px;" /></td>
+                <td><input type="text" name="report_email_subject" id="report_email_subject" value="<?php echo $options["report_email_subject"]; ?>" style="width: 500px;" /></td>
             </tr>
         </table>
     </td>

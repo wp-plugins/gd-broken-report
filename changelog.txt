@@ -2,6 +2,9 @@
 
 == Change Log ==
 
+=== Version: 1.1.1 / april 17 2009 ===
+  * fix: saving email settings
+
 === Version: 1.1.0 / april 16 2009 ===
   * new: customization of email subject
   * new: simple bot filter

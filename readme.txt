@@ -1,7 +1,7 @@
 === GD Broken Report ===
 Contributors: gdragon
 Donate link: http://www.dev4press.com/donate/
-Version: 1.1.0
+Version: 1.1.1
 Tags: admin, report, broken, email, template, exclude, insert, video
 Requires at least: 2.5.0
 Tested up to: 2.7.1
