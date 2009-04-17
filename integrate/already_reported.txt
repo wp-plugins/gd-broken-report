@@ -1,0 +1,3 @@
+<div class="gdbr-report reported">
+    This post is already reported broken.
+</div>

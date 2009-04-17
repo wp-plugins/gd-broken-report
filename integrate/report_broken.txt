@@ -1,0 +1,3 @@
+<div class="gdbr-report broken">
+    <a href="%URL%" rel="nofollow">Click to report broken post.</a>
+</div>

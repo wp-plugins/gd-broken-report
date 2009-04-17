@@ -1,0 +1,64 @@
+#: admin/settings.php:15
+msgid "Settings saved."
+msgstr ""
+
+#: admin/settings.php:19
+msgid "Settings"
+msgstr ""
+
+#: admin/settings.php:22
+msgid "Auto Insert"
+msgstr ""
+
+#: admin/settings.php:24
+msgid "For posts on the front page"
+msgstr ""
+
+#: admin/settings.php:25
+msgid "For single post"
+msgstr ""
+
+#: admin/settings.php:26
+msgid "For single page"
+msgstr ""
+
+#: admin/settings.php:27
+msgid "For posts in the archive"
+msgstr ""
+
+#: admin/settings.php:28
+msgid "For posts on search results"
+msgstr ""
+
+#: admin/settings.php:31
+msgid "Exclude On"
+msgstr ""
+
+#: admin/settings.php:35
+msgid "Categories"
+msgstr ""
+
+#: admin/settings.php:39
+msgid "Posts"
+msgstr ""
+
+#: admin/settings.php:43
+msgid "Pages"
+msgstr ""
+
+#: admin/settings.php:48
+msgid "Add one or more category, page or post id's separated by commas."
+msgstr ""
+
+#: admin/settings.php:51
+msgid "Send Report"
+msgstr ""
+
+#: admin/settings.php:55
+msgid "Email"
+msgstr ""
+
+#: admin/settings.php:59
+msgid "Subject"
+msgstr ""
+

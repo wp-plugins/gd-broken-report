@@ -1,0 +1,5 @@
+Report about broken post received.
+
+Post ID:   %POST_ID%
+Post URL:  %POST_URL%
+Post EDIT: %POST_EDIT%

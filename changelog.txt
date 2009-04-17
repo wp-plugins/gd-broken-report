@@ -1,0 +1,14 @@
+= GD Broken Report =
+
+== Change Log ==
+
+=== Version: 1.1.0 / april 16 2009 ===
+  * new: customization of email subject
+  * new: simple bot filter
+  * new: multi language support
+  * new: serbian translation
+  * fix: excluding posts, pages and categories
+  * fix: invalid path and url variables
+
+=== Version: 1.0.0 / april 15 2009 ===
+  * new: first version
