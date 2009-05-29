@@ -11,67 +11,67 @@ msgstr ""
 "X-Poedit-Language: Serbian\n"
 "X-Poedit-Country: Serbia\n"
 
-#: admin/settings.php:15
+#: admin/settings.php:16
 msgid "Settings saved."
 msgstr "Подешавања снимљена."
 
-#: admin/settings.php:19
+#: admin/settings.php:20
 msgid "Settings"
 msgstr "Подешавања"
 
-#: admin/settings.php:22
+#: admin/settings.php:23
 msgid "Auto Insert"
 msgstr "Аутоматски Убаци"
 
-#: admin/settings.php:24
+#: admin/settings.php:25
 msgid "For posts on the front page"
 msgstr "За постове на главној страни"
 
-#: admin/settings.php:25
+#: admin/settings.php:26
 msgid "For single post"
 msgstr "За један пост"
 
-#: admin/settings.php:26
+#: admin/settings.php:27
 msgid "For single page"
 msgstr "За једну страну"
 
-#: admin/settings.php:27
+#: admin/settings.php:28
 msgid "For posts in the archive"
 msgstr "За страну у архиви"
 
-#: admin/settings.php:28
+#: admin/settings.php:29
 msgid "For posts on search results"
 msgstr "За страну на резултатима претраге"
 
-#: admin/settings.php:31
+#: admin/settings.php:32
 msgid "Exclude On"
 msgstr "Не убацуј за"
 
-#: admin/settings.php:35
+#: admin/settings.php:36
 msgid "Categories"
 msgstr "Категорије"
 
-#: admin/settings.php:39
+#: admin/settings.php:40
 msgid "Posts"
 msgstr "Постове"
 
-#: admin/settings.php:43
+#: admin/settings.php:44
 msgid "Pages"
 msgstr "Стране"
 
-#: admin/settings.php:48
+#: admin/settings.php:49
 msgid "Add one or more category, page or post id's separated by commas."
 msgstr "Додај једну или више категорија, постова или страна раздвојених зарезима."
 
-#: admin/settings.php:51
+#: admin/settings.php:52
 msgid "Send Report"
 msgstr "Пошаљи извештај"
 
-#: admin/settings.php:55
+#: admin/settings.php:56
 msgid "Email"
 msgstr "Емаил"
 
-#: admin/settings.php:59
+#: admin/settings.php:60
 msgid "Subject"
 msgstr "Наслов"
 

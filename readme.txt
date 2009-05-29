@@ -1,7 +1,7 @@
 === GD Broken Report ===
 Contributors: gdragon
 Donate link: http://www.dev4press.com/donate/
-Version: 1.1.1
+Version: 1.2.0
 Tags: admin, report, broken, email, template, exclude, insert, video
 Requires at least: 2.5.0
 Tested up to: 2.7.1
@@ -32,6 +32,16 @@ Plugin is created for *Century Hits* website, but Will, website owner decided to
 
 * Upload folder `gd-broken-report` to the `/wp-content/plugins/` directory
 * Activate the plugin through the 'Plugins' menu in WordPress
+* Plugin settings are available through main Settings menu
+
+= Manual Integration Function =
+To add report block anywhere in the page, you can use a function. If you leave $post_id to 0, plugin will use current post in the loop.
+`gd_broken_report($post_id = 0, $echo = true)`
+
+= Shortcode =
+You can add report block into the post using shortcode. Shortcode can have a post_id parameter.
+`[GDBROKENREPORT]`
+`[GDBROKENREPORT post_id=X]`
 
 == Frequently Asked Questions ==
 Nothing here yet.

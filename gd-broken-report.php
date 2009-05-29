@@ -4,7 +4,7 @@
 Plugin Name: GD Broken Report
 Plugin URI: http://www.dev4press.com/plugins/gd-broken-report/
 Description: Add report broken post to preset email address using templates.
-Version: 1.1.1
+Version: 1.2.0
 Author: Milan Petrovic
 Author URI: http://www.dev4press.com/
 */
@@ -19,14 +19,16 @@ if (!class_exists('GDBrokenReport')) {
         var $plugin_url;
         var $plugin_path;
         var $admin_plugin;
-        var $o;
         var $is_bot;
+        var $o;
 
         var $default_options;
+        var $default_shortcode_gdposttable;
 
         function GDBrokenReport() {
             $gdd = new GDBrokenReportDefaults();
             $this->default_options = $gdd->default_options;
+            $this->default_shortcode_gdposttable = $gdd->default_shortcode_gdposttable;
 
             $this->plugin_path_url();
             $this->install_plugin();
@@ -82,6 +84,18 @@ if (!class_exists('GDBrokenReport')) {
             add_action('admin_menu', array(&$this, 'admin_menu'));
 
             add_filter('the_content', array(&$this, 'the_content'));
+
+            add_shortcode(strtolower("gdbrokenreport"), array(&$this, "shortcode_gdbrokenreport"));
+            add_shortcode(strtoupper("gdbrokenreport"), array(&$this, "shortcode_gdbrokenreport"));
+        }
+
+        function shortcode_gdbrokenreport($atts = array()) {
+            $s = shortcode_atts($this->default_shortcode_gdposttable, $atts);
+            if ($s["post_id"] == 0) {
+                global $post;
+                $post_id = $post->ID;
+            } else $post_id = $s["post_id"];
+            return $this->prepare_report($post_id);
         }
 
         function admin_init() {
@@ -116,16 +130,15 @@ if (!class_exists('GDBrokenReport')) {
                         $pages = explode(",", $this->o["exclude_pages"]);
                         if (is_page($pages)) return $content;
                     }
-                    $content .= $this->prepare_report($post);
+                    $content .= $this->prepare_report($post->ID);
                 }
             }
 
             return $content;
         }
 
-        function prepare_report($post) {
+        function prepare_report($post_id) {
             $report = "";
-            $post_id = $post->ID;
             $report_status = get_post_meta($post_id, "gd_broken_report", true);
             if ($report_status == "reported") {
                 $report = file_get_contents($this->plugin_path."integrate/already_reported.txt");
@@ -188,6 +201,23 @@ if (!class_exists('GDBrokenReport')) {
     }
 
     $gdbr = new GDBrokenReport();
+
+    /**
+     * Render broken report block. Can be used for manual integration.
+     *
+     * @global object $post current post object within the loop
+     * @global object $gdbr main plugin object
+     * @param int $post_id id of the post to use
+     * @param bool $echo echo results or return it as a string
+     * @return string html with rendered contents
+     */
+    function gd_broken_report($post_id = 0, $echo = true) {
+        global $post, $gdbr;
+        if ($post_id == 0) $post_id = $post->ID;
+
+        if ($echo) echo $gdbr->prepare_report($post_id);
+        else return $gdbr->prepare_report($post_id);
+    }
 }
 
 ?>

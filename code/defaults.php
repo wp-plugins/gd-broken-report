@@ -2,10 +2,11 @@
 
 class GDBrokenReportDefaults {
     var $default_options = array(
-        "version" => "1.1.1",
-        "date" => "2009.04.17.",
+        "version" => "1.2.0",
+        "date" => "2009.05.29.",
         "status" => "Stable",
-        "build" => 9,
+        "build" => 10,
+        "disable_autoinsert" => 0,
         "exclude_categories" => "",
         "exclude_posts" => "",
         "exclude_pages" => "",
@@ -17,6 +18,12 @@ class GDBrokenReportDefaults {
         "report_email" => "",
         "report_email_subject" => "Broken Post Report"
     );
+
+    var $default_shortcode_gdposttable = array(
+        "post_id" => 0
+    );
+
+    function GDBrokenReportDefaults() {}
 }
 
 ?>

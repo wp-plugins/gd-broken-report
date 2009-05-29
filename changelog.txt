@@ -2,6 +2,11 @@
 
 == Change Log ==
 
+=== Version: 1.2.0 / may 29 2009 ===
+  * new: integration function
+  * new: shortcode for inserting report block into the post
+  * edit: few minor changes
+
 === Version: 1.1.1 / april 17 2009 ===
   * fix: saving email settings
 
