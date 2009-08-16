@@ -1,10 +1,10 @@
 === GD Broken Report ===
 Contributors: gdragon
 Donate link: http://www.dev4press.com/donate/
-Version: 1.2.0
+Version: 1.2.1
 Tags: admin, report, broken, email, template, exclude, insert, video
 Requires at least: 2.5.0
-Tested up to: 2.7.1
+Tested up to: 2.8.4
 Stable tag: trunk
 
 Add report broken post to preset email address using templates.
@@ -18,10 +18,11 @@ Once the post is reported broken, email is sent to address provided in the plugi
 
 = Included Languages =
 * English
-* Serbian
+* Serbian: [Milan Petrovic](http://info.dev4press.com/)
+* Russian: [FatCow](http://www.fatcow.com/)
 
 = Century Hits =
-Plugin is created for *Century Hits* website, but Will, website owner decided to offer this plugin for free to WordPress community. So, check out his wbesite: http://www.centuryhits.com/
+Plugin is created for *Century Hits* website, but Will, website owner decided to offer this plugin for free to WordPress community. So, check out his website: http://www.centuryhits.com/
 
 == Installation ==
 
@@ -43,14 +44,12 @@ You can add report block into the post using shortcode. Shortcode can have a pos
 `[GDBROKENREPORT]`
 `[GDBROKENREPORT post_id=X]`
 
-== Frequently Asked Questions ==
-Nothing here yet.
-
 == Screenshots ==
 1. Settings panel
 
-== Configuration ==
-Nothing here yet.
+== Changelog ==
+= 1.2.1 =
+* Added Russian translation
 
 = Century Hits =
 * http://www.centuryhits.com/
