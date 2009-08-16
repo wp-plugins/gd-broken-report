@@ -51,6 +51,8 @@ You can add report block into the post using shortcode. Shortcode can have a pos
 = 1.2.1 =
 * Added Russian translation
 
+== Importan URL's ==
+
 = Century Hits =
 * http://www.centuryhits.com/
 
