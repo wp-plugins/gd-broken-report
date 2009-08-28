@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: ilyuha <iliamrv@ya.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+
+#: admin/settings.php:16
+msgid "Settings saved."
+msgstr "Налады захаваны."
+
+#: admin/settings.php:20
+msgid "Settings"
+msgstr "Налады"
+
+#: admin/settings.php:23
+msgid "Auto Insert"
+msgstr "Аўта ўстаўка"
+
+#: admin/settings.php:25
+msgid "For posts on the front page"
+msgstr "Для пастоў на галоўнай старонцы"
+
+#: admin/settings.php:26
+msgid "For single post"
+msgstr "Для адзінкавага паста"
+
+#: admin/settings.php:27
+msgid "For single page"
+msgstr "Для адзінкавай старонкі"
+
+#: admin/settings.php:28
+msgid "For posts in the archive"
+msgstr "Для пастоў у архіве"
+
+#: admin/settings.php:29
+msgid "For posts on search results"
+msgstr "Для пастоў у выніках пошуку"
+
+#: admin/settings.php:32
+msgid "Exclude On"
+msgstr "Выключэнне ўключана"
+
+#: admin/settings.php:36
+msgid "Categories"
+msgstr "Катэгорыі"
+
+#: admin/settings.php:40
+msgid "Posts"
+msgstr "Пасты"
+
+#: admin/settings.php:44
+msgid "Pages"
+msgstr "Старонкі"
+
+#: admin/settings.php:49
+msgid "Add one or more category, page or post id's separated by commas."
+msgstr "Дадаць адну ці больш катэгорый, старонак ці ID пастоў, падзеленых паміж сабой"
+
+#: admin/settings.php:52
+msgid "Send Report"
+msgstr "Адправіць справаздачу"
+
+#: admin/settings.php:56
+msgid "Email"
+msgstr "Email"
+
+#: admin/settings.php:60
+msgid "Subject"
+msgstr "Тэма"
+

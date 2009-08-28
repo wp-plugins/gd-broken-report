@@ -4,7 +4,7 @@
 Plugin Name: GD Broken Report
 Plugin URI: http://www.dev4press.com/plugins/gd-broken-report/
 Description: Add report broken post to preset email address using templates.
-Version: 1.2.1
+Version: 1.2.2
 Author: Milan Petrovic
 Author URI: http://www.dev4press.com/
 */

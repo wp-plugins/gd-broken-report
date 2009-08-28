@@ -2,6 +2,9 @@
 
 == Change Log ==
 
+=== Version: 1.2.2 / august 28 2009 ===
+  * new: belorussian translation
+
 === Version: 1.2.1 / august 16 2009 ===
   * new: russian translation
 

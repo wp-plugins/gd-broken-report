@@ -3,19 +3,25 @@
 == Languages ==
 
 === English ===
-  * version: 1.2.1
+  * version: 1.2.2
   * author: Milan Petrovic
   * email: milan@gdragon.info
   * web: http://www.gdragon.info/
 
 === Serbian ===
-  * version: 1.2.1
+  * version: 1.2.2
   * author: Milan Petrovic
   * email: milan@gdragon.info
   * web: http://www.gdragon.info/
 
 === Russian ===
-  * version: 1.2.1
+  * version: 1.2.2
   * author: FatCow
   * email: mrilyuha at gmail dot com
   * web: http://www.fatcow.com/
+
+=== Belorussian ===
+  * version: 1.2.2
+  * author: Ilyuha
+  * email: iliamrv at yandex dot ru
+  * web: http://antsar.info/

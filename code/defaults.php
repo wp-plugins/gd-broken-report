@@ -2,10 +2,10 @@
 
 class GDBrokenReportDefaults {
     var $default_options = array(
-        "version" => "1.2.1",
-        "date" => "2009.08.16.",
+        "version" => "1.2.2",
+        "date" => "2009.08.28.",
         "status" => "Stable",
-        "build" => 12,
+        "build" => 14,
         "disable_autoinsert" => 0,
         "exclude_categories" => "",
         "exclude_posts" => "",
